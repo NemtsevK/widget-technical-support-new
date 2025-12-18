@@ -1,0 +1,10 @@
+{
+  "widget": {
+    "name": "История просчётов от DeltaSales",
+    "short_description": "История просчётов от DeltaSales",
+    "description": "История просчётов от DeltaSales"
+  },
+  "settings": {
+    "phone": "Телефон"
+  }
+}

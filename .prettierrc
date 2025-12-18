@@ -1,0 +1,32 @@
+{
+  "printWidth": 150,
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 1
+      }
+    },
+    {
+      "files": [".eslintrc", ".prettierrc"],
+      "options": {
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["**/*.css", "**/*.scss", "**/*.html"],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["**/*.vue"],
+      "options": {
+        "parser": "vue"
+      }
+    }
+  ]
+}

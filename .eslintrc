@@ -1,0 +1,87 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "vue-eslint-parser",
+  "plugins": ["prettier", "import", "vue"],
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "requireConfigFile": false,
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "prefer-template": "error",
+    "dot-notation": "error",
+    "strict": ["error", "never"],
+    "import/named": "off",
+    "import/no-cycle": ["error", { "maxDepth": 1 }],
+    "no-console": "off",
+    "no-debugger": "off",
+    "import/prefer-default-export": "off",
+    "no-return-await": "off",
+    "no-throw-literal": "off",
+    "import/no-extraneous-dependencies": "off",
+    "indent": "off",
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed"],
+    "quote-props": ["error", "consistent-as-needed"],
+    "import/extensions": ["error", "always"],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true,
+        "allowAfterThisConstructor": true
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 150,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "prefer-destructuring": "off",
+    "eqeqeq": "off",
+    "class-methods-use-this": "off",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": true,
+        "variables": true
+      }
+    ],
+    "vue/html-indent": ["error", 2],
+    "vue/script-indent": ["error", 2],
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": 3,
+        "multiline": 1
+      }
+    ],
+    "vue/html-closing-bracket-newline": [
+      "error",
+      {
+        "singleline": "never",
+        "multiline": "always"
+      }
+    ],
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off",
+    "vue/multi-word-component-names": "off"
+  }
+}

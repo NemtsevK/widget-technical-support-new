@@ -1,0 +1,33 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": true,
+    "locale": [
+      "ru"
+    ],
+    "installation": true,
+    "support": {
+      "link": "https://www.deltasales.ru/contacts",
+      "email": "info@deltasales.ru"
+    }
+  },
+  "tour": {
+    "is_tour": true,
+    "tour_description": "widget.tour_description"
+  },
+  "locations": [
+    "lcard-1",
+    "settings"
+  ],
+  "settings": {
+    "phone": {
+      "name": "settings.phone",
+      "type": "text",
+      "required": true
+    }
+  }
+}

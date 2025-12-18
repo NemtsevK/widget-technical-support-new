@@ -1,0 +1,9 @@
+.widget-teratrade-statistics-right-panel {
+  background-image: linear-gradient(88.41deg, #1e5e98 0%, #121a3c 100%);
+  overflow: hidden;
+}
+
+.widget-teratrade-statistics-right-panel + .card-widgets__widget__body {
+  background-color: #ffffff;
+  padding: 10px;
+}

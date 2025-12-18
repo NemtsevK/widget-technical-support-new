@@ -1,0 +1,10 @@
+# Valid
+build/*
+configs/*
+
+package.json
+package-lock.json
+
+script.js
+jest.config.js
+babel.config.js
