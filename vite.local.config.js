@@ -5,7 +5,7 @@ import { resolve } from 'path';
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: 'build',
+    outDir: 'local/build',
     emptyOutDir: true,
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
@@ -28,8 +28,8 @@ export default defineConfig({
       },
     },
     minify: false,
+    sourcemap: true,
   },
-
   css: {
     preprocessorOptions: {
       scss: {},
