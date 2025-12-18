@@ -20,8 +20,16 @@
     "tour_description": "widget.tour_description"
   },
   "locations": [
-    "lcard-1",
-    "settings"
+    "everywhere",
+    "settings",
+    "llist",
+    "culist",
+    "clist",
+    "tlist",
+    "lcard",
+    "cucard",
+    "ccard",
+    "comcard"
   ],
   "settings": {
     "phone": {

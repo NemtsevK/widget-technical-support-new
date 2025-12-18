@@ -1,8 +1,9 @@
 {
   "widget": {
-    "name": "История просчётов от DeltaSales",
-    "short_description": "История просчётов от DeltaSales",
-    "description": "История просчётов от DeltaSales"
+    "name": "Техподдержка от DeltaSales",
+    "short_description": "Техподдержка от DeltaSales",
+    "description": "Описание",
+    "tour_description": "Описание"
   },
   "settings": {
     "phone": "Телефон"
