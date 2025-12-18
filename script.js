@@ -12,7 +12,7 @@ define(['jquery', './app.js?v=1.0.0'], function ($, App) {
           render: `<div id="widget-teratrade-statistics-integration-right-panel"></div>`,
         });
 
-        const container = document.getElementById('widget-teratrade-statistics-integration-right-panel');
+        const container = document.body;
         App.init(container, APP);
 
         return true;
