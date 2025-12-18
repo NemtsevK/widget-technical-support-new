@@ -1,9 +1,41 @@
-.widget-teratrade-statistics-right-panel {
-  background-image: linear-gradient(88.41deg, #1e5e98 0%, #121a3c 100%);
-  overflow: hidden;
-}
+$widget-name: "technical-support-deltasales";
 
-.widget-teratrade-statistics-right-panel + .card-widgets__widget__body {
-  background-color: #ffffff;
-  padding: 10px;
+.#{$widget-name} {
+  &-message-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 60px;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    z-index: 99999; /* Высокий z-index чтобы была поверх всех элементов amoCRM */
+    background: linear-gradient(135deg, #1e5e98 0%, #121a3c 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &::before {
+      content: "";
+      background-image: url(./images/deltasales_logo.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 35px;
+      height: 35px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
 }
