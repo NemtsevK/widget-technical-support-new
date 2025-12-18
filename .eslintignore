@@ -1,5 +1,6 @@
-# Valid
 build/*
+local/build/*
+local/static/*
 configs/*
 
 package.json

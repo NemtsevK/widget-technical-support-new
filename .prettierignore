@@ -3,3 +3,5 @@
 
 # Файлы сборки
 /build
+/local/build
+/local/static
