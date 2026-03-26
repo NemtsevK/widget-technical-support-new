@@ -15,14 +15,15 @@ export default {
       e.preventDefault();
       console.log('click');
       //const amouser_id = widgetInstance.widgets?.system?.amouser_id || 28953067;
-      //const amouser = widgetInstance.widgets?.system?.amouser;
-      const subdomain = widgetInstance.widgets?.system?.subdomain;
+      const email = widgetInstance.widgets?.system?.amouser || 'KANemtsev@1cbit.ru';
+      const subdomain = widgetInstance.widgets?.system?.subdomain || 'techdeltasales';
 
       await fetch('https://mazdata.ru/technical-support-integration/test', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           subdomain: subdomain,
+          email: email,
           message: 'Привет',
         }),
       });
